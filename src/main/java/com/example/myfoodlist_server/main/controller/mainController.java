@@ -13,4 +13,9 @@ public class mainController {
         return "index";
     }
 
+    @GetMapping("/daumPostCode")
+    public String daumPostCode(){
+        return "daumPostCode";
+    }
+
 }
